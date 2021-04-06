@@ -1,41 +1,48 @@
 footer {
     font-family: Arial, Helvetica, sans-serif;
     background: #f2f2f2;
-    border: 1px solid #dadce0;
-    font-size: 0.9rem;
     margin-top: auto;
     a {
         display: inline-block;
-        padding: 8px 15px;
         color: #797979;
     }
 }
 
 #location {
-    padding: 0px 15px;
+    padding: 5px 15px;
     border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    line-height: 1.4;
+    a {
+        padding: 8px 15px;
+    }
 }
 
 #about-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap-reverse;
-    padding: 0px 15px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    line-height: 1.2;
+    a {
+        display: block;
+        padding: 15px;
+    }
 }
 
 #about-1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 #about-2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-@media (max-width: 890px) {
+@media (max-width: 1200px) {
     #about-container {
-        justify-content: center;
+        justify-content: space-evenly;
     }
 }

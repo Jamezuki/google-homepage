@@ -1,9 +1,8 @@
 @use 'base/base';
 
 @use 'layout/nav';
+@use 'layout/main';
 @use 'layout/footer';
-
-@use 'pages/index';
 
 @use 'modules/button';
 @use 'modules/search';
